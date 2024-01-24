@@ -46,6 +46,7 @@ aside {
     background-color: #eee;
     color: #333;
     text-align: center;
+    position: relative;
 }
 
 aside img{
@@ -64,7 +65,8 @@ footer{
     border-top: 1px solid #000;
     text-align: center;
 }
-/* Class Selectors*/
+
+/* Class Selectors */
 
 .box {
     margin: 1rem;
