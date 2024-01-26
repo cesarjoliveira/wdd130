@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Nabla&family=Pacifico&family=Salsa&display=swap');
+
+* {
+    max-width: 1100px;
+}
+:root{
+    --primary-color: #FFB3AE;
+    --secondary-color: #ABA05F;
+    --accent1-color: #50CE69;
+    --accent2-color: #EB9647;
+  
+    --heading-font: 'pacifico', serif;
+    --paragraph-font: 'salsa', serif;
+  
+    --nav-background-color: #A5CA3F;
+    --nav-link-color: #282A22;
+    --nav-hover-link-color: #7F8278;
+    --nav-hover-background-color: #4E601B;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+
+p{
+    padding: 2px;
+}
+
+/* Class Selectors */
+
+.sociallinks {
+    text-decoration: none;
+}
+
+.hero div{
+    position: relative;
+    
+}
+.hero h1 {
+    position: absolute;
+    width: 1100px;
+    text-align: center;
+    background-color: rgba(116, 110, 110, .6);
+    margin: 1rem;
+}
+.hero article{
+    position: absolute;
+    width: 1100px;
+    text-align: center;
+    background-color: rgba(116, 110, 110, .6);
+    margin: 1rem;
+    top: 350px;
+}
+.hero img{
+    display: block;
+    width: 100%;
+    height: auto;
+    position: absolute;
+}
+
+.article1 img {
+    width: 150px;
+    height: auto;
+    float: right;
+}
