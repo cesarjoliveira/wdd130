@@ -12,13 +12,17 @@
 </head>
 
 <body>
+    <div class="geralgrid">
     <header>
-        <img src="images/logo.jpg" alt="logo Rafing site">
+        <img class="logo" src="images/logo.jpg" alt="logo Rafing site">
+        <h1> Rasec Rafting </h1>
         <nav>
-            <a href="index.html">Home Page</a>
-            <a href="about.html">About</a>
-            <a href="trips.html">Trips</a>
-            <a href="contact.html">Contact</a>
+            <ul class="navigation">
+                <li><a href="index.html">Home Page</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="trips.html">Trips</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
         </nav>
     </header>
     <main>
@@ -40,30 +44,49 @@
                 </p>
             </article>
         </div>
-        <section class="history">
-            <h2>
+        <div class="history">
+        <section class="historysection">
+            <h2 id="h2h">
                 History
             </h2>
-            <p> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum minima sequi eligendi reiciendis? Veniam
+            <p id="p1"> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Ipsum minima sequi eligendi reiciendis? Veniam
                 praesentium illo reiciendis aspernatur architecto nihil repellat. Distinctio aliquam natus quam suscipit
                 totam quibusdam perspiciatis velit consequatur ab voluptate recusandae optio, culpa explicabo quidem
                 aspernatur? Sapiente saepe in laborum sunt cum iste ducimus expedita at consequuntur!
             </p>
+            <img class="imghist" src="images/kayak.jpg" alt="Our Rafting is amazing">
+            <p id="p2">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Reiciendis odio quidem, ratione vitae
+                perspiciatis temporibus adipisci facilis officiis similique eaque maiores perferendis libero, saepe nemo
+                ab animi ullam voluptas consequatur corrupti voluptates minima doloremque. Inventore eveniet dolorum
+                quam voluptatem aperiam quos quod corrupti. Dolorum quia ipsum, atque fugit mollitia voluptatum!
+            </p>
         </section>
+        </div>
         <section class="adventure">
             <h2>
                 Adventure Awaits You!
             </h2>
-            <p>Kayak</p>
-            <img src="images/kayak.jpg" alt="Our Rafting is amazing">
-            <p>Rafting</p>
-            <img src="images/rafting31_600.jpg" alt="Our Rafting is amazing">
-            <p>Groups</p>
-            <img src="images/rafting6_600.jpg" alt="Our Rafting is amazing">
-            <p>Adventure</p>
-            <img src="images/salmon.jpg" alt="Our Rafting is amazing">
-            <p>water</p>
-            <img src="images/rafting30_600.jpg" alt="Our Rafting is amazing">
+            <div>
+                <img class="imghist" src="images/kayak.jpg" alt="Our Rafting is amazing">
+                <p>Kayak</p>
+            </div>
+            <div>
+                <img src="images/rafting30_600.jpg" alt="Our Rafting is amazing">
+                <p>Rafting</p>
+            </div>
+            <div>
+                <img src="images/rafting6_600.jpg" alt="Our Rafting is amazing">
+                <p>Groups</p>
+            </div>
+            <div>
+                <img src="images/salmon.jpg" alt="Our Rafting is amazing">
+                <p>Adventure</p>    
+            </div>
+            <div>
+                <img src="images/rafting30_600.jpg" alt="Our Rafting is amazing">
+                <p>water</p>
+            </div>
         </section>
     </main>
     <footer>
@@ -77,7 +100,7 @@
             <a href="https://instagram.com"><img src="images/instagram.svg" alt="instagram" width="50" height="50"></a>
         </nav>
     </footer>
-
+</div>
 </body>
 
 </html>
