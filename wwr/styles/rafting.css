@@ -49,6 +49,7 @@ p{
 .hero h1{
     position: absolute;
     top: 1%;
+    background-color: rgba(116, 110, 210, .6)
 }
 .hero article{
     width: 95%;
