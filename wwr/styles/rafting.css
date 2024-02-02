@@ -153,7 +153,7 @@ nav {
 .adventure {
     display: grid;
     grid-template-columns: 200px 200px 200px 200px 200px ;
-    grid-template-rows: 90px 250px;
+    grid-template-rows: 90px 150px;
 }
 .adventure h2{
     grid-row: 1;
