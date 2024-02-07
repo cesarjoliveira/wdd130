@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us - Rasec Rafting</title>
+    <meta name="description"
+        content="The Contact us rafting site plan includes Contact information about Rasec Rafting company and a form to direct contact with business">
+    <meta name="author" content="Cesar Jose de Oliveira">
+    <link rel="stylesheet" href="styles/contact.css">
+</head>
+
+<body>
+    <div class="geralgrid">
+        <header>
+            <img class="logo" src="images/logo.jpg" alt="logo Rafing site">
+            <h1> Rasec Rafting </h1>
+            <nav>
+                <ul class="navigation">
+                    <li><a href="index.html">Home Page</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="trips.html">Trips</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </nav>
+        </header>
+        <main>
+            <section class="company-info">
+                <h2>Company Information</h2> <br />
+                <p>Rasec Rafting</p> <br />
+                <p>+55(27)99517-9292</p> <br />
+                <p>unicoacesso@gmail.com</p> <br />
+                <div><iframe
+                        src="https://www.google.com/maps/embed?pb=!1m14!1m12!1m3!1d22898.407313244195!2d-147.36398028456637!3d64.74995978460677!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!5e0!3m2!1spt-BR!2sbr!4v1707330138714!5m2!1spt-BR!2sbr"
+                        width="600" height="450" allowfullscreen="" loading="lazy"
+                        referrerpolicy="no-referrer-when-downgrade"></iframe></div>
+            </section>
+
+            <section class="employee-profiless">
+                <h2 class="h2pro">Our People</h2>
+                <div class="employee-profile">
+                    <img src="images/john-doe.jpg" alt="John Doe" class="employee-image">
+                    <p>Caption: John Doe - Rafting Guide</p>
+                </div>
+                <div class="employee-profile">
+                    <img src="images/jane-smith.jpg" alt="Jane Smith" class="employee-image">
+                    <p>Caption: Jane Smith - Customer Support</p>
+                </div>
+                <div class="employee-profile">
+                    <img src="images/bob-johnson.jpg" alt="Bob Johnson" class="employee-image">
+                    <p>Caption: Bob Johnson - Adventure Coordinator</p>
+                </div>
+            </section>
+            <section class="contact-form-container">
+                <h2>Contact us</h2>
+                <form class="contact-form">
+                    <label for="name">User's Name:</label>
+                    <input type="text" id="name" name="name" required> <br />
+
+                    <label for="email">User's Email Address:</label>
+                    <input type="email" id="email" name="email" required>
+
+                    <fieldset>
+                        <legend>Purpose of Message:</legend>
+                        <label><input type="radio" name="purpose" value="General Inquiry" checked> General
+                            Inquiry</label>
+                        <label><input type="radio" name="purpose" value="Reservation Question"> Reservation
+                            Question</label>
+                        <label><input type="radio" name="purpose" value="Website Suggestion"> Website Suggestion</label>
+                    </fieldset>
+
+                    <label for="message">Message:</label>
+                    <textarea id="message" name="message" rows="4" required></textarea> <br />
+
+                    <label><input type="checkbox" name="subscribe" value="yes"> Please subscribe me to the monthly
+                        newsletter</label>
+
+                    <button type="submit">Submit</button>
+                </form>
+            </section>
+        </main>
+        <footer>
+            <p>
+                © 2024 Rasec Rafting | Cesar Jose de Oliveira
+            </p>
+
+            <nav class="sociallinks">
+                <a href="https://facebook.com"><img src="images/facebook.svg" alt="facebook" width="50" height="50"></a>
+                <a href="https://twitter.com"><img src="images/twitter.svg" alt="twitter" width="50" height="50"></a>
+                <a href="https://instagram.com"><img src="images/instagram.svg" alt="instagram" width="50"
+                        height="50"></a>
+            </nav>
+        </footer>
+    </div>
+</body>
+
+</html>
