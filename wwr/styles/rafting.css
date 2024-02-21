@@ -269,3 +269,56 @@ footer {
 .contact-form input[type="submit"]:hover {
     background-color: var(--accent2-color);
 }
+
+main {
+    display: grid;
+    grid-template-rows: 200px 45% 15%px;
+}
+
+/* Call to action styles */
+.call-to-action {
+    flex: 1 0 100%;
+    text-align: center;
+    padding: 20px;
+    grid-row: 1;
+    grid-column: 1/4;
+}
+
+/* Trip details styles */
+.trip-details {
+    display: grid;
+    grid-template-columns: 33% 33% 33%;
+    grid-row: 2;
+}
+
+.trip-details article {
+    flex: 1 0 48%;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    width: 90%;
+    height: 90%;
+}
+#peru {
+    grid-column: 1;
+}
+#salmon { 
+    grid-column: 2;
+}
+#nile { 
+    grid-column: 3;
+}
+.trip-details img {
+    width: 600px;
+    height: 400px;
+    object-fit: none;
+}
+
+/* Trip table styles */
+.trip-table {
+    flex: 1 0 100%;
+    padding: 20px;
+    grid-row: 3;
+    text-align: center;
+    margin:auto;
+}
