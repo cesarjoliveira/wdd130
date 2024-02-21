@@ -272,7 +272,7 @@ footer {
 
 main {
     display: grid;
-    grid-template-rows: 200px 45% 15%px;
+    grid-template-rows: 200px 45% 15%;
 }
 
 /* Call to action styles */
