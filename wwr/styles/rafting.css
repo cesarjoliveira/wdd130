@@ -275,7 +275,6 @@ main {
     grid-template-rows: 200px 45% 15%;
 }
 
-/* Call to action styles */
 .call-to-action {
     flex: 1 0 100%;
     text-align: center;
@@ -284,7 +283,6 @@ main {
     grid-column: 1/4;
 }
 
-/* Trip details styles */
 .trip-details {
     display: grid;
     grid-template-columns: 33% 33% 33%;
@@ -321,4 +319,116 @@ main {
     grid-row: 3;
     text-align: center;
     margin:auto;
+}
+.ind-main {
+    display: grid;
+    grid-template-rows: auto;
+    gap: 20px;
+    padding: 20px;
+}
+
+.ind-hero {
+    position: relative;
+}
+
+.ind-hero img {
+    width: 100%;
+    height: auto;
+}
+
+.ind-hero h1 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #fff;
+    font-size: 2em;
+    text-align: center;
+    background-color: rgba(116, 110, 210, .6);
+}
+
+/* Newsletter section styles */
+.ind-newsletter {
+    background-color: var(--accent1-color);
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.ind-newsletter h2 {
+    font-size: 1.5rem;
+}
+
+.ind-newsletter form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ind-newsletter label {
+    font-size: 1rem;
+    margin: 5px 0;
+}
+
+.ind-newsletter input,
+.ind-newsletter button {
+    padding: 10px;
+    margin: 5px 0;
+}
+
+.ind-newsletter button {
+    background-color: #282A22;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+.ind-cta {
+    background-color: #50CE69;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.ind-cta h2 {
+    font-size: 1.5rem;
+}
+
+.ind-cta p {
+    font-size: 1rem;
+}
+
+.ind-cta a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #282A22;
+    color: #fff;
+    text-decoration: none;
+}
+
+.ind-cta a:hover {
+    background-color: #7F8278;
+}
+
+/* Grid layout styles */
+.ind-grid-layout {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.ind-grid-item {
+    /* Add styles for grid items */
+    border: 1px solid #ddd;
+    padding: 15px;
+}
+
+.ind-grid-item img {
+    width: 100%;
+    height: auto;
+}
+
+.ind-grid-item h3 {
+    margin-top: 10px;
 }
